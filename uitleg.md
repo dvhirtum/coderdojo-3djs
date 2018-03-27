@@ -11,7 +11,7 @@ De enige file die je in elke opdracht hoeft aan te passen is `index.js` en allee
 
 <pre><code><i>// ******** SCHRIJF AL JE CODE NA DEZE REGEL ********</i></code></pre>
 
-> Let op: Je kunt `index.js` niet openen door er op te dubbelklikken, want dan probeert Windows het uit te voeren. Op het bestand daarom in je favoriete tekstverwerker (bij voorkeur niet notepad).
+> Let op: Je kunt `index.js` niet openen door er op te dubbelklikken, want dan probeert Windows het uit te voeren. Open het bestand daarom in je favoriete tekstverwerker (bij voorkeur niet notepad).
 
 ### Resultaat bekijken
 
