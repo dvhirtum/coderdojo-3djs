@@ -122,20 +122,22 @@ function isWalking() {
 
 document.addEventListener('keydown', function (event) {
   var code = event.keyCode;
+  var speed = 15;
+
   if (code == 37) { // pijltje naar links
-    marker.position.x = marker.position.x - 5;
+    marker.position.x = marker.position.x - speed;
     is_moving_left = true;
   }
   if (code == 38) { // pijltje omhoog
-    marker.position.z = marker.position.z - 5;
+    marker.position.z = marker.position.z - speed;
     is_moving_forward = true;
   }
   if (code == 39) { // pijltje naar rechts
-    marker.position.x = marker.position.x + 5;
+    marker.position.x = marker.position.x + speed;
     is_moving_right = true;
   }
   if (code == 40) { // pijltje omlaag
-    marker.position.z = marker.position.z + 5;
+    marker.position.z = marker.position.z + speed;
     is_moving_back = true;
   }
   if (code == 67) is_cartwheeling = !is_cartwheeling; // C

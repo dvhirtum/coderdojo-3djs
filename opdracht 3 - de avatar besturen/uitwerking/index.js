@@ -77,10 +77,12 @@ animate();
 
 document.addEventListener('keydown', function (event) {
   var code = event.keyCode;
-  if (code == 37) marker.position.x = marker.position.x - 5; // pijltje naar links
-  if (code == 38) marker.position.z = marker.position.z - 5; // pijltje omhoog
-  if (code == 39) marker.position.x = marker.position.x + 5; // pijltje naar rechts
-  if (code == 40) marker.position.z = marker.position.z + 5; // pijltje omlaag
+  var speed = 15;
+
+  if (code == 37) marker.position.x = marker.position.x - speed; // pijltje naar links
+  if (code == 38) marker.position.z = marker.position.z - speed; // pijltje omhoog
+  if (code == 39) marker.position.x = marker.position.x + speed; // pijltje naar rechts
+  if (code == 40) marker.position.z = marker.position.z + speed; // pijltje omlaag
   if (code == 67) is_cartwheeling = !is_cartwheeling; // C
   if (code == 70) is_flipping = !is_flipping; // F
 });
