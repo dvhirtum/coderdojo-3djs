@@ -13,10 +13,6 @@ De enige file die je in elke opdracht hoeft aan te passen is `index.js` en allee
 
 > Let op: Je kunt `index.js` niet openen door er op te dubbelklikken, want dan probeert Windows het uit te voeren. Open het bestand daarom in je favoriete tekstverwerker (bij voorkeur niet notepad).
 
-## Online editor
-
-Als je geen text editor op je computer hebt staan, dan kun je de challenge ook online maken. Ga naar daarvoor naar https://repl.it/@Dickvan/CoderDojo-3djs en klik op de ![fork](fork.png) knop. Dit maakt een copy van de startsituatie zodat je online kan werken zonder de startsituatie voor anderen kapot te maken.
-
 ### Resultaat bekijken
 
 Om de wijzigingen die je aan jouw code hebt gemaakt te bekijken kun je het `index.html` bestand in een browser openen. De makkelijkste manier is door op het bestand te dubbelklikken vanuit de verkenner van Windows.
@@ -37,3 +33,7 @@ Als er in de opdracht staat dat je code moet **veranderen**, dan wordt er van je
 ### Uitwerkingen
 
 Mocht je er niet uitkomen, dan staat er in elke opdracht-folder een folder met de naam **uitwerking**. Hierin vind je de opgeloste opdracht zodat je die kan vergelijken met je eigen resultaat.
+
+### Online editor
+
+Als je geen text editor op je computer hebt staan, dan kun je de challenge ook online maken. Ga naar daarvoor naar https://repl.it/@Dickvan/CoderDojo-3djs en klik op de ![fork](fork.png) knop. Dit maakt een copy van de startsituatie zodat je online kan werken zonder de startsituatie voor anderen kapot te maken.
