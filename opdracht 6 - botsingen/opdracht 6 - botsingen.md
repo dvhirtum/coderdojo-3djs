@@ -1,6 +1,6 @@
 # Opdracht 6 - Botsingen
 
-* boundaries maken waar de avater niet in mag koment
+* boundaries maken waar de avater niet in mag komen
 ```
 var not_allowed = [];
 ```

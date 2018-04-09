@@ -22,14 +22,7 @@ scoreboard.onTimeExpired(function () {
 
 * bomen schudden
 
-vervang:
-```
-makeTreeAt( 500, 0);
-makeTreeAt(-500, 0);
-makeTreeAt( 750, -1000);
-makeTreeAt(-750, -1000);
-```
-door:
+vervang de 4 `makeTreeAt(...);` regels door:
 <pre><code><b>var tree_with_treasure;
 var trees = [];
 trees.push(makeTreeAt( 500, 0));

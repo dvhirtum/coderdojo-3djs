@@ -39,6 +39,14 @@ function walk() {
 animate();</code></pre>
 
 wat gebeurd er als je de 5 aanpast? en 50?
+<pre><code>function walk() {
+  var position = Math.sin(clock.getElapsedTime() * <b>10</b>) * 50;
+  right_hand.position.z = position;
+}</code></pre>
+<pre><code>function walk() {
+  var position = Math.sin(clock.getElapsedTime() * 5) * <b>100</b>;
+  right_hand.position.z = position;
+}</code></pre>
 
 * animatie voor rest toevoegen
 

@@ -24,9 +24,9 @@ function animate() {
   if (is_cartwheeling) {
     avatar.rotation.z = avatar.rotation.z + 0.05;
   }
-  <b>if (is_flipping) {</b>
+  <b>if (is_flipping) {
     avatar.rotation.x = avatar.rotation.x + 0.05;
-  <b>}</b>
+  }</b>
   renderer.render(scene, camera);
 }
 animate();</code></pre>
