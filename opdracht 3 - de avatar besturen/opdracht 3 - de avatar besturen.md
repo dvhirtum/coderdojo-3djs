@@ -4,10 +4,12 @@
 ```
 document.addEventListener('keydown', function(event) {
   var code = event.keyCode;
-  if (code == 37) avatar.position.x = avatar.position.x-5; // pijltje naar links
-  if (code == 38) avatar.position.z = avatar.position.z-5; // pijltje omhoog
-  if (code == 39) avatar.position.x = avatar.position.x+5; // pijltje naar rechts
-  if (code == 40) avatar.position.z = avatar.position.z+5; // pijltje omlaag
+  var speed = 15;
+
+  if (code == 37) avatar.position.x = avatar.position.x - speed; // pijltje naar links
+  if (code == 38) avatar.position.z = avatar.position.z - speed; // pijltje omhoog
+  if (code == 39) avatar.position.x = avatar.position.x + speed; // pijltje naar rechts
+  if (code == 40) avatar.position.z = avatar.position.z + speed; // pijltje omlaag
 });
 ```
 
@@ -31,10 +33,12 @@ animate();</code></pre>
 
 <pre><code>document.addEventListener('keydown', function(event) {
   var code = event.keyCode;
-  if (code == 37) avatar.position.x = avatar.position.x-5; // pijltje naar links
-  if (code == 38) avatar.position.z = avatar.position.z-5; // pijltje omhoog
-  if (code == 39) avatar.position.x = avatar.position.x+5; // pijltje naar rechts
-  if (code == 40) avatar.position.z = avatar.position.z+5; // pijltje omlaag
+  var speed;
+
+  if (code == 37) avatar.position.x = avatar.position.x - speed; // pijltje naar links
+  if (code == 38) avatar.position.z = avatar.position.z - speed; // pijltje omhoog
+  if (code == 39) avatar.position.x = avatar.position.x + speed; // pijltje naar rechts
+  if (code == 40) avatar.position.z = avatar.position.z + speed; // pijltje omlaag
 
   <b>if (code == 67) is_cartwheeling = !is_cartwheeling; // C
   if (code == 70) is_flipping = !is_flipping; // F</b>
@@ -82,10 +86,12 @@ scene.add(marker);
 
 <pre><code>document.addEventListener('keydown', function(event) {
   var code = event.keyCode;
-  if (code == 37) <b>marker</b>.position.x = <b>marker</b>.position.x-5; // pijltje naar links
-  if (code == 38) <b>marker</b>.position.z = <b>marker</b>.position.z-5; // pijltje omhoog
-  if (code == 39) <b>marker</b>.position.x = <b>marker</b>.position.x+5; // pijltje naar rechts
-  if (code == 40) <b>marker</b>.position.z = <b>marker</b>.position.z+5; // pijltje omlaag
+  var speed = 15;
+
+  if (code == 37) <b>marker</b>.position.x = <b>marker</b>.position.x - speed; // pijltje naar links
+  if (code == 38) <b>marker</b>.position.z = <b>marker</b>.position.z - speed; // pijltje omhoog
+  if (code == 39) <b>marker</b>.position.x = <b>marker</b>.position.x + speed; // pijltje naar rechts
+  if (code == 40) <b>marker</b>.position.z = <b>marker</b>.position.z + speed; // pijltje omlaag
 
   if (code == 67) is_cartwheeling = !is_cartwheeling; // C
   if (code == 70) is_flipping = !is_flipping; // F
