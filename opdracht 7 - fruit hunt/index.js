@@ -156,10 +156,10 @@ document.addEventListener('keydown', function (event) {
   if (code == 70) is_flipping = !is_flipping; // F
 
   if (detectCollisions()) {
-    if (is_moving_left) marker.position.x = marker.position.x + 5;
-    if (is_moving_right) marker.position.x = marker.position.x - 5;
-    if (is_moving_forward) marker.position.z = marker.position.z + 5;
-    if (is_moving_back) marker.position.z = marker.position.z - 5;
+    if (is_moving_left) marker.position.x = marker.position.x + speed;
+    if (is_moving_right) marker.position.x = marker.position.x - speed;
+    if (is_moving_forward) marker.position.z = marker.position.z + speed;
+    if (is_moving_back) marker.position.z = marker.position.z - speed;
   }
 });
 
@@ -175,9 +175,6 @@ function detectCollisions() {
   var vector = new THREE.Vector3(0, -1, 0);
   var ray = new THREE.Raycaster(marker.position, vector);
   var intersects = ray.intersectObjects(not_allowed);
-  if (intersects.length > 0) {
-    console.log("collision");
-    return true;
-  }
+  if (intersects.length > 0) return true;
   return false;
 }

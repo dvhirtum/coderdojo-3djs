@@ -208,10 +208,7 @@ function detectCollisions() {
   var vector = new THREE.Vector3(0, -1, 0);
   var ray = new THREE.Raycaster(marker.position, vector);
   var intersects = ray.intersectObjects(not_allowed);
-  if (intersects.length > 0) {
-    console.log("collision");
-    return true;
-  }
+  if (intersects.length > 0) return true;
   return false;
 }
 
