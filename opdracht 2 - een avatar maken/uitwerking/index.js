@@ -35,14 +35,10 @@ left_foot.position.set(75, -125, 0);
 avatar.add(left_foot);
 
 var is_cartwheeling = false;
-var is_flipping = true;
 function animate() {
   requestAnimationFrame(animate);
   if (is_cartwheeling) {
     avatar.rotation.z = avatar.rotation.z + 0.05;
-  }
-  if (is_flipping) {
-    avatar.rotation.x = avatar.rotation.x + 0.05;
   }
   renderer.render(scene, camera);
 }
