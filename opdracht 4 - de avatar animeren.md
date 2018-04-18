@@ -1,12 +1,21 @@
 # Opdracht 4 - De avatar animeren
 
-* acrobatics uit animate functie halen
+De avatar beweegt nu op commando, maar hij ziet er nog wel een beetje als een houten Klaas uit, vind je niet? Daar ga je in deze opdracht iets aan doen.
+
+## Acrobatiek uit `animate` functie halen
+
+Je gaat in deze opdracht de armen en benen van de avatar heen en weer bewegen als de avatar loopt. Maar om dat te doen moet je de `animate` functie aanpassen. Omdat daar nu al de code in staat voor de acrobatiek (salto's en flips) zou die functie een beetje onoverzichtelijk worden. Daarom ga je eerst die acrobatiek er uit halen en in zijn eigen functie zetten.
+
+Pas de `animate` functie aan:
+
 <pre><code>function animate() {
   requestAnimationFrame(animate);
   <b>acrobatics();</b>
   renderer.render(scene, camera);
 }
 animate();</code></pre>
+
+En voeg de volgende code toe, direct onder de regel `animate();`:
 
 ```
 var is_cartwheeling = false;
@@ -20,16 +29,36 @@ function acrobatics() {
   }
 }
 ```
-* animatie voor rechter hand toevoegen
+
+Dit doet exact hetzelfde als wat je al had, maar nu kunnen we de loop-animatie toevoegen zonder dat het een rotzooi wordt.
+
+## Animatie voor de rechter hand toevoegen
+
+Om te beginnen ga je alleen de rechter hand animeren.
+
+Voeg eerst de volgende regel toe, direct boven de `animate` functie:
+
 ```
 var clock = new THREE.Clock(true);
 ```
+
+Dit voegt een klok toe, zodat je animaties op basis van de verstreken tijd kunt maken, zoals je in opdracht 1 ook al hebt gedaan.
+
+Voeg nu de volgende code toe, direct onder de regel `animate();`:
+
 ```
 function walk() {
   var position = Math.sin(clock.getElapsedTime() * 5) * 50;
   right_hand.position.z = position;
 }
 ```
+
+Met de functie `Math.sin` kun je een slinger beweging simuleren. Als je een steeds groter getal in deze functie stopt (wat je doet omdat `getElapsedTime` steeds groter wordt, er is namelijk steeds meer tijd verstreken) dan zal `Math.sin` eerst steeds groter worden, daarna weer steeds kleiner, enzovoort. Als je het resultaat van deze functie dus gebruikt om de positie van de rechter hand te bepalen, dan krijg je dus het idee dat deze heen en weer beweegt tijdens het lopen.
+
+Nu moet je de `walk` functie alleen nog aanroepen om de animatie te zien.
+
+Pas de `animate` functie aan:
+
 <pre><code>function animate() {
   requestAnimationFrame(animate);
   <b>walk();</b>
@@ -38,19 +67,13 @@ function walk() {
 }
 animate();</code></pre>
 
-wat gebeurd er als je de 5 aanpast? en 50?
-<pre><code>function walk() {
-  var position = Math.sin(clock.getElapsedTime() * <b>10</b>) * 50;
-  right_hand.position.z = position;
-}</code></pre>
-<pre><code>function walk() {
-  var position = Math.sin(clock.getElapsedTime() * 5) * <b>100</b>;
-  right_hand.position.z = position;
-}</code></pre>
+> **Probeer het zelf:** Probeer je spel nu uit om de animatie van de hand te zien. Experimenteer met de waarden **5** en **50** om een idee te krijgen wat ze doen. Kies vervolgens waarden die jij mooi vind.
 
-* animatie voor rest toevoegen
+## Animatie voor rest toevoegen
 
-eerst zelf proberen
+Als je tevreden bent over de animatie van de hand, dan kan je de rest van de ledematen animeren. Lukt je dit zelf zonder hieronder te spieken? Tip: Als de rechter hand naar voren gaat, dan moet de linker hand naar achteren gaan. En meestal bewegen de armen en benen kruislings, dus rechter hand naar voren samen met het linker been.
+
+Pas (als je dat nog niet gelukt is) de `walk` functie aan:
 
 <pre><code>function walk() {
   var position = Math.sin(clock.getElapsedTime() * 5) * 50;
@@ -60,7 +83,11 @@ eerst zelf proberen
   left_foot.position.z = position;</b>
 }</code></pre>
 
-* loop animatie alleen uitvoeren tijdens lopen
+## Loop-animatie alleen uitvoeren tijdens lopen
+
+Je hebt nu een mooie loop-animatie gemaakt, maar op dit moment staat deze animatie altijd aan. Het is uiteraard de bedoeling dat de animatie alleen aan staat als je avatar ook werkelijk beweegt.
+
+Pas daarvoor eerst de `walk` functie aan:
 
 <pre><code>function walk() {
   <b>if (!isWalking()) return;</b>
@@ -70,6 +97,10 @@ eerst zelf proberen
   right_foot.position.z = -position;
   left_foot.position.z = position;
 }</code></pre>
+
+Als de `isWalking` functie (die je nog moet maken) **niet** `true` teruggeeft, dan wordt de regel `return;` uitgevoerd. Dit betekent dat de `walk` functie meteen op houd en dus niet langer de positie van de handen en voeten aanpast.
+
+Voeg nu deze `isWalking` functie toe, direct na de `acrobatics` functie:
 
 ```
 var is_moving_right, is_moving_left, is_moving_forward, is_moving_back;
@@ -81,6 +112,12 @@ function isWalking() {
   return false;
 }
 ```
+
+Als &eacute;&eacute;n van de variabelen `is_moving_right`, `is_moving_left`, `is_moving_forward` of `is_moving_back` de waarde `true` heeft, dan zal de `isWalking` functie ook `true` terug geven. Anders geeft de functie `false` terug.
+
+Nu moet je alleen nog zorgen dat de 4 `is_moving_` variabelen de juiste waarde krijgen.
+
+Pas daarvoor de `addEventListener` code aan:
 
 <pre><code>document.addEventListener('keydown', function(event) {
   var code = event.keyCode;
@@ -107,6 +144,12 @@ function isWalking() {
   if (code == 70) is_flipping = !is_flipping; // F
 });</code></pre>
 
+Nu wordt de juiste `is_moving_` variabele ingesteld als je op een pijltjestoets drukt. Helaas is dit nog niet genoeg, want als je eenmaal op een pijltjestoets hebt gedrukt wordt de `is_moving_` variabele nooit meer op `false` gezet. Na het eerst pijltje dat je indrukt zal de avatar dus weer constant in de loop-animatie blijven.
+
+Om dit op te lossen moet je nog een tweede `addEventListener` toevoegen, maar nu voor het `keyup` event (dus het loslaten van een toets).
+
+Voeg de volgende code toe, helemaal onderaan `index.js`:
+
 ```
 document.addEventListener('keyup', function(event) {
   var code = event.keyCode;
@@ -117,3 +160,5 @@ document.addEventListener('keyup', function(event) {
   if (code == 40) is_moving_back = false;
 });
 ```
+
+Nu werkt de loop-animatie alleen maar zolang als je een van de pijltjestoetsen indrukt. Maar de avatar blijft nog wel steeds in dezelfde richting staan, welk pijltje je ook indrukt. Dat probleem ga je in de volgende opdracht oplossen.
