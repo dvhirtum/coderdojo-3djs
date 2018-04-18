@@ -34,6 +34,16 @@ Als er in de opdracht staat dat je code moet **veranderen**, dan wordt er van je
 
 Mocht je er niet uitkomen, dan staat er in elke opdracht-folder een folder met de naam **uitwerking**. Hierin vind je de opgeloste opdracht zodat je die kan vergelijken met je eigen resultaat.
 
-### Online editor
+## Online editor
 
 Als je geen text editor op je computer hebt staan, dan kun je de challenge ook online maken. Ga naar daarvoor naar https://repl.it/@Dickvan/CoderDojo-3djs en klik op de ![fork](fork.png) knop. Dit maakt een copy van de startsituatie zodat je online kan werken zonder de startsituatie voor anderen kapot te maken.
+
+## Bron en libraries
+
+Deze opdrachten zijn afgeleid van het boek [3D Game Programming for Kids](https://pragprog.com/book/csjava/3d-game-programming-for-kids) van Chris Strom. Als je geinteresseerd bent geraakt in spellen bouwen met javascript, dan kan ik je dat boek van harte aanbevelen. Het bevat naast de opdrachten die je hier al hebt gedaan nog veel meer leuke dingen die je kunt bouwen. Het boek is wel in het engels, dus daar moet je wel rekening mee houden.
+
+Tijdens de opdrachten maak je gebruik van twee libraries, `THREE.js` en `Tween.js`. Als je wilt weten wat deze libraries nog meer kunnen dan wat je in de opdrachten hebt geleerd, dan kun je hier meer informatie vinden:
+
+* https://threejs.org/
+* https://www.createjs.com/tweenjs
+
