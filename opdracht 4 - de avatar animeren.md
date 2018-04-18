@@ -2,7 +2,7 @@
 
 De avatar beweegt nu op commando, maar hij ziet er nog wel een beetje als een houten Klaas uit, vind je niet? Daar ga je in deze opdracht iets aan doen.
 
-## Acrobatiek uit `animate` functie halen
+## Acrobatiek uit de `animate` functie halen
 
 Je gaat in deze opdracht de armen en benen van de avatar heen en weer bewegen als de avatar loopt. Maar om dat te doen moet je de `animate` functie aanpassen. Omdat daar nu al de code in staat voor de acrobatiek (salto's en flips) zou die functie een beetje onoverzichtelijk worden. Daarom ga je eerst die acrobatiek er uit halen en in zijn eigen functie zetten.
 
@@ -69,7 +69,7 @@ animate();</code></pre>
 
 > **Probeer het zelf:** Probeer je spel nu uit om de animatie van de hand te zien. Experimenteer met de waarden **5** en **50** om een idee te krijgen wat ze doen. Kies vervolgens waarden die jij mooi vind.
 
-## Animatie voor rest toevoegen
+## Animatie voor de rest toevoegen
 
 Als je tevreden bent over de animatie van de hand, dan kan je de rest van de ledematen animeren. Lukt je dit zelf zonder hieronder te spieken? Tip: Als de rechter hand naar voren gaat, dan moet de linker hand naar achteren gaan. En meestal bewegen de armen en benen kruislings, dus rechter hand naar voren samen met het linker been.
 
@@ -83,7 +83,7 @@ Pas (als je dat nog niet gelukt is) de `walk` functie aan:
   left_foot.position.z = position;</b>
 }</code></pre>
 
-## Loop-animatie alleen uitvoeren tijdens lopen
+## Loop-animatie alleen uitvoeren tijdens het lopen
 
 Je hebt nu een mooie loop-animatie gemaakt, maar op dit moment staat deze animatie altijd aan. Het is uiteraard de bedoeling dat de animatie alleen aan staat als je avatar ook werkelijk beweegt.
 
@@ -161,4 +161,4 @@ document.addEventListener('keyup', function(event) {
 });
 ```
 
-Nu werkt de loop-animatie alleen maar zolang als je een van de pijltjestoetsen indrukt. Maar de avatar blijft nog wel steeds in dezelfde richting staan, welk pijltje je ook indrukt. Dat probleem ga je in de volgende opdracht oplossen.
+Nu werkt de loop-animatie alleen maar zolang je een van de pijltjestoetsen indrukt. Maar de avatar blijft nog wel steeds in dezelfde richting staan, welk pijltje je ook indrukt. Dat probleem ga je in de volgende opdracht oplossen.

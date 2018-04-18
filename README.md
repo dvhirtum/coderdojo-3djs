@@ -42,8 +42,8 @@ Als je geen text editor op je computer hebt staan, dan kun je de challenge ook o
 
 Deze opdrachten zijn afgeleid van het boek [3D Game Programming for Kids](https://pragprog.com/book/csjava/3d-game-programming-for-kids) van Chris Strom. Als je geinteresseerd bent geraakt in spellen bouwen met javascript, dan kan ik je dat boek van harte aanbevelen. Het bevat naast de opdrachten die je hier al hebt gedaan nog veel meer leuke dingen die je kunt bouwen. Het boek is wel in het engels, dus daar moet je wel rekening mee houden.
 
-Tijdens de opdrachten maak je gebruik van twee libraries, `THREE.js` en `Tween.js`. Als je wilt weten wat deze libraries nog meer kunnen dan wat je in de opdrachten hebt geleerd, dan kun je hier meer informatie vinden:
+Tijdens de opdrachten maak je gebruik van twee libraries, `THREE.js` en `TWEEN.js`. Als je wilt weten wat deze libraries nog meer kunnen dan wat je in de opdrachten hebt geleerd, dan kun je hier meer informatie vinden:
 
 * https://threejs.org/
-* https://www.createjs.com/tweenjs
+* https://github.com/tweenjs/tween.js
 
