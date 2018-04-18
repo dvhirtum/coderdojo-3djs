@@ -2,6 +2,8 @@
 
 In deze opdracht gaan we beginnen met het spel. Het eerste onderdeel van het spel is je eigen avatar.
 
+Of je opdracht 1 nu helemaal af hebt gemaakt of niet, gebruik altijd de bestanden in de map `opdracht 2 - een avatar maken` om deze opdracht mee te beginnen. Deze opdracht start namelijk van voren af aan. Alle volgende opdrachten gaan verder waar deze is gebleven.
+
 ## Het lijf van de avatar
 
 Voeg de volgende code toe, onder de regel `// ******** SCHRIJF AL JE CODE NA DEZE REGEL ********`:
