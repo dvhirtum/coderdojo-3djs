@@ -1,8 +1,8 @@
 # Opdracht 3 - De avatar besturen
 
-In deze opdracht ga je de avater laten bewegen met de pijltjestoetsen en, om er voor te zorgen dat je de beweging goed kan zien, ga je ook wat extra objecten tekenen: bomen!
+[Volgende opdracht](opdracht%204%20-%20de%20avatar%20animeren.md) | [Vorige opdracht](opdracht%202%20-%20een%20avatar%20maken.md) | [Uitleg](README.md)
 
-Als je opdracht 2 helemaal af hebt, dan kan je verder gaan met dezelfde code, maar je kan er ook voor kiezen om de bestanden in de map `opdracht 3 - de avatar besturen` te gebruiken als je startpunt.
+In deze opdracht ga je de avater laten bewegen met de pijltjestoetsen en, om er voor te zorgen dat je de beweging goed kan zien, ga je ook wat extra objecten tekenen: bomen!
 
 ## Bewegen met pijltjestoetsen
 
@@ -158,3 +158,5 @@ Pas tot slot de `addEventListener` code aan:
 Nu beweeg je het `marker` object met de pijltjestoetsen en omdat je zowel de `avatar` als de `camera` aan dat `marker` object hebt gekoppeld bewegen ze samen mee.
 
 Maar omdat je de rotatie in de `animate` functie niet hebt aangepast (die roteert nog steeds de `avatar`) zal de camera nu stil blijven en lijkt het niet meer of de spelwereld mee draait.
+
+[Volgende opdracht](opdracht%204%20-%20de%20avatar%20animeren.md) | [Vorige opdracht](opdracht%202%20-%20een%20avatar%20maken.md) | [Uitleg](README.md)

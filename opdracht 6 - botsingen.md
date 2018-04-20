@@ -1,5 +1,7 @@
 # Opdracht 6 - Botsingen
 
+[Volgende opdracht](opdracht%207%20-%20fruit%20hunt.md) | [Vorige opdracht](opdracht%205%20-%20de%20avatar%20draaien.md) | [Uitleg](README.md)
+
 Misschien is het je opgevallen dat de avatar op dit moment dwars door de bomen kan lopen. Dat is uiteraard niet de bedoeling, dus daar ga je in deze opdracht een stokje voor steken!
 
 ## Boundaries maken
@@ -109,3 +111,5 @@ Nu je kan bepalen wanneer de avatar tegen een boom aanloopt, moet je nog zorgen 
 Nadat je bepaald hebt wat de nieuwe positie van de avatar moet worden, roep je de `detectCollisions` functie aan. Als er een botsing dreigt, dan draai je simpelweg de verandering van de positie weer terug. Omdat je zowel de eerste positie-wijziging als het terugdraaien doet voordat de avatar op de nieuwe positie getekent wordt, is het net alsof de positie nooit veranderd is.
 
 Dit is het einde van opdracht 6. In de volgende, en laatste, opdracht ga je de speler een reden geven om van boom naar boom te lopen en maak je het spel af met een scorebord en geluid!
+
+[Volgende opdracht](opdracht%207%20-%20fruit%20hunt.md) | [Vorige opdracht](opdracht%205%20-%20de%20avatar%20draaien.md) | [Uitleg](README.md)

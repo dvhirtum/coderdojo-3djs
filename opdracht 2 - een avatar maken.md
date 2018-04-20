@@ -1,8 +1,10 @@
 # Opdracht 2 - Een avatar maken
 
+[Volgende opdracht](opdracht%203%20-%20de%20avatar%20besturen.md) | [Vorige opdracht](opdracht%201%20-%20figuren%20tekenen.md) | [Uitleg](README.md)
+
 In deze opdracht gaan we beginnen met het spel. Het eerste onderdeel van het spel is je eigen avatar.
 
-Of je opdracht 1 nu helemaal af hebt gemaakt of niet, gebruik altijd de bestanden in de map `opdracht 2 - een avatar maken` om deze opdracht mee te beginnen. Deze opdracht start namelijk van voren af aan. Alle volgende opdrachten gaan verder waar deze is gebleven.
+Voordat je begint, gooi alle code onder de regel `// ******** SCHRIJF AL JE CODE NA DEZE REGEL ********` weg. Dit is de enige keer dat je dit hoeft te doen. Opdracht 1 was bedoeld om je kennis te laten maken met de 3D objecten die je gaat gebruiken. Vanaf nu ga je beginnen met het maken van het spel.
 
 ## Het lijf van de avatar
 
@@ -79,7 +81,7 @@ animate();</code></pre>
 
 Elke keer als de `animate` functie aangeroepen wordt veranderd de rotatie van de avatar in de z-richting met **0.05**. In opdracht 1 paste je elke keer de rotatie van een object aan door de waarden van alle richtingen in te stellen, maar het kan dus ook op deze manier voor elke richting (x, y en z) afzonderlijk.
 
-Sla je wijzigingen op en bekijk `index.html` in een webbrowser. Wat valt je op?
+Bekijk het resultaat in de andere tab. Wat valt je op?
 
 ## Hierarchy van objecten
 
@@ -105,7 +107,7 @@ door de volgende regels:
 <b>avatar</b>.add(right_foot);
 <b>avatar</b>.add(left_foot);</code></pre>
 
-Als je nu `index.html` bekijkt in een webbrowser, dan maakt de hele avatar een salto!
+Als je nu het resultaat bekijkt in de andere tab, dan maakt de hele avatar een salto!
 
 ## De animatie uitzetten
 
@@ -125,3 +127,5 @@ function animate() {
 animate();</code></pre>
 
 Nu wordt de animatie alleen maar uitgevoerd als `is_cartwheeling` de waarde `true` heeft (engels voor "waar"). Heb je genoeg van de animatie, verander dan `true` in `false` (engels voor "niet waar") en de animatie stopt. In de volgende opdracht ga je dit verder uitbreiden door de animatie aan of uit te zetten met een toets op het toetsenbord, maar voor nu geeft het je een idee hoe je kan controleren of een stuk van je code wel of niet uitgevoerd wordt.
+
+[Volgende opdracht](opdracht%203%20-%20de%20avatar%20besturen.md) | [Vorige opdracht](opdracht%201%20-%20figuren%20tekenen.md) | [Uitleg](README.md)

@@ -1,4 +1,6 @@
-# Opdracht 5 - de avatar draaien.md
+# Opdracht 5 - de avatar draaien
+
+[Volgende opdracht](opdracht%206%20-%20botsingen.md) | [Vorige opdracht](opdracht%204%20-%20de%20avatar%20animeren.md) | [Uitleg](README.md)
 
 In de vorige opdracht heb je een loop-animatie toegevoegd als je de avatar beweegt, maar die animatie ziet er wel erg vreemd uit als de avatar niet ook draait in de richting waarin hij loopt. In deze opdracht ga je dat toevoegen.
 
@@ -35,7 +37,7 @@ Je gebruikt dezelfde 4 `is_moving_` variabelen die je in de vorige opdracht hebt
 
 ## De draai animeren
 
-Als je nu de code opslaat en `index.html` in een webbrowser opent, dan zul je zien dat de avatar draait in de richting waarin hij loopt. Maar de draai is wel heel abrupt. Zo het niet mooi zijn als je de draai zelf ook zou kunnen animeren?
+Als je nu het resultaat bekijkt in de andere tab, dan zul je zien dat de avatar draait in de richting waarin hij loopt. Maar de draai is wel heel abrupt. Zo het niet mooi zijn als je de draai zelf ook zou kunnen animeren?
 
 Daarvoor kunnen we een tweede **library** gebruiken, genaamd `TWEEN.js`. Deze **library** maakt het makkelijker om animaties te maken. In plaats van dat je elke wijziging van positie of rotatie precies moet berekenen, zoals we tot nu toe hebben gedaan, kan je `TWEEN.js` dat voor je laten doen. Je geeft simpelweg een beginwaarde en een eindwaarde op en je verteld `TWEEN.js` in hoeveel tijd hij de waarde van die beginwaarde naar de eindwaarde moet veranderen.
 
@@ -90,3 +92,5 @@ Vervolgens stel je met `.to({ y: direction }, 100)` de eindwaarde in. `direction
 De `onUpdate` functie wordt uitgevoerd elke keer als `TWEEN.update();` in de `animate` functie wordt aangeroepen, totdat de eindtijd (en eindwaarde) is bereikt. Afhankelijk van de verstreken tijd sinds de animatie is gestart krijgt de avatar een y-rotatie tussen de beginwaarde en eindwaarde in.
 
 > **Probeer het zelf:** Hopelijk kon je de uitleg van `TWEEN.js` een beetje volgen. Het is erg moeilijk om in zo simpel mogelijke tekst uit te leggen wat een animatie library kan doen. Experimenteer daarom zo veel mogelijk. Probeer bijvoorbeeld eens om `rotation` door `position` te vervangen. Of om als eindwaarde **0** op te geven i.p.v. `direction`. En speel uiteraard met de tijdsduur van de animatie.
+
+[Volgende opdracht](opdracht%206%20-%20botsingen.md) | [Vorige opdracht](opdracht%204%20-%20de%20avatar%20animeren.md) | [Uitleg](README.md)

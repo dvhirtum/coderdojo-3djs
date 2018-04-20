@@ -11,15 +11,9 @@ De enige file die je in elke opdracht hoeft aan te passen is `index.js` en allee
 
 <pre><code><i>// ******** SCHRIJF AL JE CODE NA DEZE REGEL ********</i></code></pre>
 
-> Let op: Je kunt `index.js` niet openen door er op te dubbelklikken, want dan probeert Windows het uit te voeren. Open het bestand daarom in je favoriete tekstverwerker (bij voorkeur niet notepad).
-
-### Resultaat bekijken
-
-Om de wijzigingen die je aan jouw code hebt gemaakt te bekijken kun je het `index.html` bestand in een browser openen. De makkelijkste manier is door op het bestand te dubbelklikken vanuit de verkenner van Windows.
-
 ### Code toevoegen
 
-Als er in de opdracht staat dat je code moet **toevoegen**, dan wordt er altijd bij vermeldt waar je de code moet toevoegen. Let hier goed op, want als je de code op de verkeerde plaats toevoegd, dan zal het programma waarschijnlijk niet werken. In de opdracht kan bijvoorbeeld staan (maak je niet druk om wat de code doet, dat wordt in de opdrachten uitgelegd): 
+Als er in de opdracht staat dat je code moet **toevoegen**, dan wordt er altijd bij vermeldt waar je de code moet toevoegen. Let hier goed op, want als je de code op de verkeerde plaats toevoegt, dan zal het programma waarschijnlijk niet werken. In de opdracht kan bijvoorbeeld staan (maak je niet druk om wat de code doet, dat wordt in de opdrachten uitgelegd): 
 
 *"Voeg de volgende code toe direct na de regel `scene.add(ball);`"*
 
@@ -30,14 +24,6 @@ Als er in de opdracht staat dat je code moet **veranderen**, dan wordt er van je
 
 <pre><code>var shape = new THREE.SphereGeometry(<b>250</b>);</code></pre>
 
-### Uitwerkingen
-
-Mocht je er niet uitkomen, dan staat er in elke opdracht-folder een folder met de naam **uitwerking**. Hierin vind je de opgeloste opdracht zodat je die kan vergelijken met je eigen resultaat.
-
-## Online editor
-
-Als je geen text editor op je computer hebt staan, dan kun je de challenge ook online maken. Ga naar daarvoor naar https://repl.it/@Dickvan/CoderDojo-3djs en klik op de ![fork](fork.png) knop. Dit maakt een copy van de startsituatie zodat je online kan werken zonder de startsituatie voor anderen kapot te maken.
-
 ## Bron en libraries
 
 Deze opdrachten zijn afgeleid van het boek [3D Game Programming for Kids](https://pragprog.com/book/csjava/3d-game-programming-for-kids) van Chris Strom. Als je geinteresseerd bent geraakt in spellen bouwen met javascript, dan kan ik je dat boek van harte aanbevelen. Het bevat naast de opdrachten die je hier al hebt gedaan nog veel meer leuke dingen die je kunt bouwen. Het boek is wel in het engels, dus daar moet je wel rekening mee houden.
@@ -47,3 +33,28 @@ Tijdens de opdrachten maak je gebruik van twee libraries, `THREE.js` en `TWEEN.j
 * https://threejs.org/
 * https://github.com/tweenjs/tween.js
 
+
+## De opdrachten
+
+Je gaat de opdrachten maken in een online text editor, zodat er helemaal niets op je computer geinstalleerd hoeft te worden. In de editor staan alle bestanden die je nodig hebt om de opdrachten te maken.
+
+Ga als volgt te werk om met de eerste opdracht te beginnen:
+
+ 1. Ga naar <a href="https://repl.it/@Dickvan/CoderDojo-3djs" target="_blank">https://repl.it/@Dickvan/CoderDojo-3djs</a>
+ 2. Klik op de ![fork](fork.png) knop. Dit maakt een copy van de startsituatie zodat je online kan werken zonder de startsituatie voor anderen kapot te maken.
+ 3. Klik in het linker-venster op `index.js`. Dit opent het bestand in het middelste venster, zodat je er in kan werken.
+ 4. Klik in het rechter-venster op de ![open in new tab](open.png) knop. Dit opent het eindresultaat van je werk in een nieuw venster. Dit werkt beter dan het kleine rechter venster in de editor.
+
+Hier is de lijst met opdrachten. Op elke opdracht pagina staat links naar de volgende en de vorige opdracht en een link terug naar deze uitleg.
+
+ 1. [opdracht 1 - figuren tekenen](opdracht%201%20-%20figuren%20tekenen.md)
+ 2. [opdracht 2 - een avatar maken](opdracht%202%20-%20een%20avatar%20maken.md)
+ 3. [opdracht 3 - de avatar besturen](opdracht%203%20-%20de%20avatar%20besturen.md)
+ 4. [opdracht 4 - de avatar animeren](opdracht%204%20-%20de%20avatar%20animeren.md)
+ 5. [opdracht 5 - de avatar draaien](opdracht%205%20-%20de%20avatar%20draaien.md)
+ 6. [opdracht 6 - botsingen](opdracht%206%20-%20botsingen.md)
+ 7. [opdracht 7 - fruit hunt](opdracht%207%20-%20fruit%20hunt.md)
+
+### Uitwerkingen
+
+Mocht je er niet uitkomen, ga dan naar: https://github.com/dvhirtum/coderdojo-3djs. Hier staat alle code van deze challenge, inclusief uitwerkingen van alle opdrachten. Ga naar de folder van de opdracht waar je mee bezig bent en open de folder met de naam  **uitwerking**.
