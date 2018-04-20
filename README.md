@@ -13,7 +13,7 @@ De enige file die je in elke opdracht hoeft aan te passen is `index.js` en allee
 
 ### Code toevoegen
 
-Als er in de opdracht staat dat je code moet **toevoegen**, dan wordt er altijd bij vermeldt waar je de code moet toevoegen. Let hier goed op, want als je de code op de verkeerde plaats toevoegt, dan zal het programma waarschijnlijk niet werken. In de opdracht kan bijvoorbeeld staan (maak je niet druk om wat de code doet, dat wordt in de opdrachten uitgelegd): 
+Als er in de opdracht staat dat je code moet **toevoegen**, dan wordt er altijd bij vermeldt w&aacute;&aacute;r je de code moet toevoegen. Let hier goed op, want als je de code op de verkeerde plaats toevoegt, dan zal het programma waarschijnlijk niet werken. In de opdracht kan bijvoorbeeld staan (maak je niet druk om wat de code doet, dat wordt in de opdrachten uitgelegd): 
 
 *"Voeg de volgende code toe direct na de regel `scene.add(ball);`"*
 
