@@ -37,7 +37,7 @@ Je gebruikt dezelfde 4 `is_moving_` variabelen die je in de vorige opdracht hebt
 
 ## De draai animeren
 
-Als je nu het resultaat bekijkt in de andere tab, dan zul je zien dat de avatar draait in de richting waarin hij loopt. Maar de draai is wel heel abrupt. Zo het niet mooi zijn als je de draai zelf ook zou kunnen animeren?
+Als je nu het resultaat bekijkt in het andere venster, dan zul je zien dat de avatar draait in de richting waarin hij loopt. Maar de draai is wel heel abrupt. Zo het niet mooi zijn als je de draai zelf ook zou kunnen animeren?
 
 Daarvoor kunnen we een tweede **library** gebruiken, genaamd `TWEEN.js`. Deze **library** maakt het makkelijker om animaties te maken. In plaats van dat je elke wijziging van positie of rotatie precies moet berekenen, zoals we tot nu toe hebben gedaan, kan je `TWEEN.js` dat voor je laten doen. Je geeft simpelweg een beginwaarde en een eindwaarde op en je verteld `TWEEN.js` in hoeveel tijd hij de waarde van die beginwaarde naar de eindwaarde moet veranderen.
 

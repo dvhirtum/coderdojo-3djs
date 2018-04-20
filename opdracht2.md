@@ -81,7 +81,7 @@ animate();</code></pre>
 
 Elke keer als de `animate` functie aangeroepen wordt veranderd de rotatie van de avatar in de z-richting met **0.05**. In opdracht 1 paste je elke keer de rotatie van een object aan door de waarden van alle richtingen in te stellen, maar het kan dus ook op deze manier voor elke richting (x, y en z) afzonderlijk.
 
-Bekijk het resultaat in de andere tab. Wat valt je op?
+Bekijk het resultaat in het andere venster. Wat valt je op?
 
 ## Hierarchy van objecten
 
@@ -107,7 +107,7 @@ door de volgende regels:
 <b>avatar</b>.add(right_foot);
 <b>avatar</b>.add(left_foot);</code></pre>
 
-Als je nu het resultaat bekijkt in de andere tab, dan maakt de hele avatar een salto!
+Als je nu het resultaat bekijkt in het andere venster, dan maakt de hele avatar een salto!
 
 ## De animatie uitzetten
 

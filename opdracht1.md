@@ -27,7 +27,7 @@ De derde regel, `var ball = new THREE.Mesh(shape, cover);`, voegt de vorm en het
 
 Alles wat bepaald hoe het voorwerp eruit ziet is nu bepaald, maar je hebt nog een extra regel nodig om te zorgen dat de bol ook op het scherm getekend wordt en dat is de regel `scene.add(ball);`.
 
-Als je nu je code zou starten en het resultaat bekijkt in de andere tab, dan gebeurd er nog niks. Daarvoor hebben we nog wat extra code nodig. 
+Als je nu je code zou starten en het resultaat bekijkt in het andere venster, dan gebeurt er nog niks. Daarvoor hebben we nog wat extra code nodig. 
 
 Voeg de volgende code toe onder de regel `scene.add(ball);`:
 
@@ -49,7 +49,7 @@ De volgende regel, `renderer.render(scene, camera);`, is wat er voor zorgt dat j
 
 De laatste regel, `animate();`, roept de `animate` functie voor de eerste keer aan om de game-loop te starten.
 
-Nu kun je je bekijken in de andere tab. Zie je jouw bol?
+Nu kun je je resultaat bekijken in het andere venster. Zie je jouw bol?
 
 ## De bol mooier maken
 
@@ -61,7 +61,7 @@ Pas de regel waar je de `SphereGeometry` hebt gemaakt als volgt aan:
 
 Dat is een stuk mooier, nietwaar? De getallen **20** en **15** bepalen uit hoeveel segmenten de bol in de breedte en hoogte bestaan. Als je deze getallen weglaat, dan gebruikt `THREE.js` hiervoor in de plaats standaardwaarden, namelijk **8** en **6**.
 
-> **Probeer het zelf:** In plaats van alleen de getallen over te nemen die in de opdrachten staan kun je een heleboel leren door zelf met de getallen te spelen. Dit werkt het beste als je &eacute;&eacute;n getal per keer aanpast en daarna in de andere tab bekijkt wat er verandert.
+> **Probeer het zelf:** In plaats van alleen de getallen over te nemen die in de opdrachten staan kun je een heleboel leren door zelf met de getallen te spelen. Dit werkt het beste als je &eacute;&eacute;n getal per keer aanpast en daarna in het andere venster bekijkt wat er verandert.
 
 Waarom zou je niet altijd hogere waarden gebruiken, als dat er veel mooier uitziet? Het probleem is dat uit hoe meer segmenten een object bestaat, des te zwaarder is het voor een computer om hem te tekenen. Hoe veel segmenten je gebruikt is dus altijd een afweging tussen hoe mooi het er uit moet zien en hoe krachtig de computer is van de persoon die jouw spel gaat spelen.
 
@@ -92,7 +92,7 @@ scene.add(box);
 
 Deze code lijkt heel erg op de code om een bol te maken. Eigenlijk is alleen de eerste regel anders: In plaats van een `SphereGeometry` gebruik je een `CubeGeometry`. En de parameters zijn anders: De eerste **100** bepaalt de lengte, de tweede **100** de hoogte en de laatste **100** de diepte.
 
-Bekijk je resultaat in de andere tab. Wat zie je?
+Bekijk je resultaat in het andere venster. Wat zie je?
 
 ## De kubus roteren
 

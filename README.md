@@ -43,7 +43,11 @@ Ga als volgt te werk om met de eerste opdracht te beginnen:
  1. Ga naar <a href="https://repl.it/@Dickvan/CoderDojo-3djs" target="_blank">https://repl.it/@Dickvan/CoderDojo-3djs</a>
  2. Klik op de ![fork](fork.png) knop. Dit maakt een copy van de startsituatie zodat je online kan werken zonder de startsituatie voor anderen kapot te maken.
  3. Klik in het linker-venster op `index.js`. Dit opent het bestand in het middelste venster, zodat je er in kan werken.
- 4. Klik in het rechter-venster op de ![open in new tab](open.png) knop. Dit opent het eindresultaat van je werk in een nieuw venster. Dit werkt beter dan het kleine rechter venster in de editor.
+ 4. Klik op de link naar opdracht 1 hieronder. Nu kun je aan de slag!
+
+ Als je jouw werk wilt uitproberen, klik dan op de ![run](run.png) knop. Als alles goed is gegaan zie je het resultaat in het rechter venster. Vind je dit venster wat klein, klik dan op de ![open in new tab](open.png) knop. Dit opent het resultaat in een nieuwe tab, zodat je het wat beter kan bekijken.
+
+Elke keer als je jouw code wijzigt en je wilt het resultaat bekijken, dan moet je opnieuw op de ![run](run.png) knop klikken. Als er geen `run` knop staat, maar een `stop` knop, klik die dan eerst in en daarna `run`.
 
 Hier is de lijst met opdrachten. Op elke opdracht pagina staat links naar de volgende en de vorige opdracht en een link terug naar deze uitleg.
 
