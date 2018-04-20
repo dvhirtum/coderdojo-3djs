@@ -2,7 +2,7 @@
 
 [Volgende opdracht](opdracht4.md) - [Vorige opdracht](opdracht2.md) - [Uitleg](README.md)
 
-In deze opdracht ga je de avater laten bewegen met de pijltjestoetsen en, om er voor te zorgen dat je de beweging goed kan zien, ga je ook wat extra objecten tekenen: bomen!
+In deze opdracht ga je de avatar laten bewegen met de pijltjestoetsen en, om ervoor te zorgen dat je de beweging goed kan zien, ga je ook wat extra objecten tekenen: bomen!
 
 ## Bewegen met pijltjestoetsen
 
@@ -65,11 +65,11 @@ Pas vervolgens de `addEventListener` code aan:
 
 Nu kan de gebruiker de animaties zelf starten met de `c` of `f` toets.
 
-Het uitroep-teken in de code (`!`) betekent: Draai de waarde om, dus als de waarde `true` was, dan wordt het nu `false` en omgekeerd.
+Het uitroepteken in de code (`!`) betekent: Draai de waarde om, dus als de waarde `true` was, dan wordt het nu `false` en omgekeerd.
 
 ## Bomen tekenen
 
-Je avatar kan zich nu bewegen, maar wat heb je daar aan in een saaie, lege spelwereld. Om pas echt plezier van het rondrennen te hebben ga je nu wat nieuwe objecten toevoegen, namelijk bomen.
+Je avatar kan zich nu bewegen, maar wat heb je daaraan in een saaie, lege spelwereld. Om pas echt plezier van het rondrennen te hebben ga je nu wat nieuwe objecten toevoegen, namelijk bomen.
 
 Voeg de volgende code toe, nadat je alle ledematen van de avatar hebt gemaakt, maar voor de `animate` functie:
 

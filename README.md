@@ -6,7 +6,7 @@ In de bijgeleverde opdrachten leer je hoe je met Javascript een 3D spel kan make
 
 De complete challenge bestaat uit 7 opdrachten. Het is de bedoeling dat je de opdrachten op volgorde maakt, want iedere opdracht gaat verder waar de vorige is gebleven.
 
-Omdat deze challenge gebruik maakt van een aantal **libraries** (voorgeprogrammeerde hulpmiddelen die het makkelijker maken om complexe taken te programmeren) is het belangrijk dat je niets weggooit wat in de opdracht-folder staat.
+Omdat deze challenge gebruik maakt van een aantal *libraries* (voorgeprogrammeerde hulpmiddelen die het makkelijker maken om complexe taken te programmeren) is het belangrijk dat je niets weggooit wat in de opdracht-folder staat.
 De enige file die je in elke opdracht hoeft aan te passen is `index.js` en alleen onder de volgende regel: 
 
 <pre><code><i>// ******** SCHRIJF AL JE CODE NA DEZE REGEL ********</i></code></pre>
@@ -26,17 +26,17 @@ Als er in de opdracht staat dat je code moet **veranderen**, dan wordt er van je
 
 ## Bron en libraries
 
-Deze opdrachten zijn afgeleid van het boek [3D Game Programming for Kids](https://pragprog.com/book/csjava/3d-game-programming-for-kids) van Chris Strom. Als je geinteresseerd bent geraakt in spellen bouwen met javascript, dan kan ik je dat boek van harte aanbevelen. Het bevat naast de opdrachten die je hier al hebt gedaan nog veel meer leuke dingen die je kunt bouwen. Het boek is wel in het engels, dus daar moet je wel rekening mee houden.
+Deze opdrachten zijn afgeleid van het boek [3D Game Programming for Kids](https://pragprog.com/book/csjava/3d-game-programming-for-kids) van Chris Strom. Als je ge&iuml;nteresseerd bent geraakt in spellen bouwen met javascript, dan kan ik je dat boek van harte aanbevelen. Het bevat naast de opdrachten die je hier al hebt gedaan nog veel meer leuke dingen die je kunt bouwen. Het boek is wel in het Engels, dus daar moet je wel rekening mee houden.
 
-Tijdens de opdrachten maak je gebruik van twee libraries, `THREE.js` en `TWEEN.js`. Als je wilt weten wat deze libraries nog meer kunnen dan wat je in de opdrachten hebt geleerd, dan kun je hier meer informatie vinden:
+Tijdens de opdrachten maak je gebruik van twee *libraries*, `THREE.js` en `TWEEN.js`. Als je wilt weten wat deze *libraries* nog meer kunnen dan wat je in de opdrachten hebt geleerd, dan kun je hier meer informatie vinden:
 
-* https://threejs.org/
-* https://github.com/tweenjs/tween.js
+* [https://threejs.org/](https://threejs.org/)
+* [https://github.com/tweenjs/tween.js](https://threejs.org/)
 
 
 ## De opdrachten
 
-Je gaat de opdrachten maken in een online text editor, zodat er helemaal niets op je computer geinstalleerd hoeft te worden. In de editor staan alle bestanden die je nodig hebt om de opdrachten te maken.
+Je gaat de opdrachten maken in een online text editor, zodat er helemaal niets op je computer ge&iuml;nstalleerd hoeft te worden. In de editor staan alle bestanden die je nodig hebt om de opdrachten te maken.
 
 Ga als volgt te werk om met de eerste opdracht te beginnen:
 

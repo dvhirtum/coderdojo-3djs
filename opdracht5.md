@@ -37,9 +37,9 @@ Je gebruikt dezelfde 4 `is_moving_` variabelen die je in de vorige opdracht hebt
 
 ## De draai animeren
 
-Als je nu het resultaat bekijkt in het andere venster, dan zul je zien dat de avatar draait in de richting waarin hij loopt. Maar de draai is wel heel abrupt. Zo het niet mooi zijn als je de draai zelf ook zou kunnen animeren?
+Als je nu het resultaat bekijkt in het andere venster, dan zal je zien dat de avatar draait in de richting waarin hij loopt. Maar de draai is wel heel abrupt. Zo het niet mooi zijn als je de draai zelf ook zou kunnen animeren?
 
-Daarvoor kunnen we een tweede **library** gebruiken, genaamd `TWEEN.js`. Deze **library** maakt het makkelijker om animaties te maken. In plaats van dat je elke wijziging van positie of rotatie precies moet berekenen, zoals we tot nu toe hebben gedaan, kan je `TWEEN.js` dat voor je laten doen. Je geeft simpelweg een beginwaarde en een eindwaarde op en je verteld `TWEEN.js` in hoeveel tijd hij de waarde van die beginwaarde naar de eindwaarde moet veranderen.
+Daarvoor kunnen we een tweede *library* gebruiken, genaamd `TWEEN.js`. Deze *library* maakt het makkelijker om animaties te maken. In plaats van dat je elke wijziging van positie of rotatie precies moet berekenen, zoals we tot nu toe hebben gedaan, kan je `TWEEN.js` dat voor je laten doen. Je geeft simpelweg een beginwaarde en een eindwaarde op en je verteld `TWEEN.js` in hoeveel tijd hij de waarde van die beginwaarde naar de eindwaarde moet veranderen.
 
 Klinkt het ingewikkeld? Hopelijk wordt het duidelijk als je de code ziet en er mee kan spelen.
 
@@ -85,12 +85,12 @@ function spinAvatar(direction) {
 }
 ```
 
-Met de regel `.Tween({ y: avatar.rotation.y })` stel je de beginwaarde in van de animatie. In dit geval sla je de huidige waarde van de y-rotatie van de avatar op in een variable `y`.
+Met de regel `.Tween({ y: avatar.rotation.y })` stel je de beginwaarde in van de animatie. In dit geval sla je de huidige waarde van de y-rotatie van de avatar op in een variabele `y`.
 
 Vervolgens stel je met `.to({ y: direction }, 100)` de eindwaarde in. `direction` is de parameter die je in de `turn` functie hebt berekend. De waarde **100** geeft aan hoe lang de animatie moet duren, in dit geval 100 milliseconden of 0.1 seconde.
 
 De `onUpdate` functie wordt uitgevoerd elke keer als `TWEEN.update();` in de `animate` functie wordt aangeroepen, totdat de eindtijd (en eindwaarde) is bereikt. Afhankelijk van de verstreken tijd sinds de animatie is gestart krijgt de avatar een y-rotatie tussen de beginwaarde en eindwaarde in.
 
-> **Probeer het zelf:** Hopelijk kon je de uitleg van `TWEEN.js` een beetje volgen. Het is erg moeilijk om in zo simpel mogelijke tekst uit te leggen wat een animatie library kan doen. Experimenteer daarom zo veel mogelijk. Probeer bijvoorbeeld eens om `rotation` door `position` te vervangen. Of om als eindwaarde **0** op te geven i.p.v. `direction`. En speel uiteraard met de tijdsduur van de animatie.
+> **Probeer het zelf:** Hopelijk kon je de uitleg van `TWEEN.js` een beetje volgen. Het is erg moeilijk om in zo simpel mogelijke tekst uit te leggen wat een animatie *library* kan doen. Experimenteer daarom zo veel mogelijk. Probeer bijvoorbeeld eens om `rotation` door `position` te vervangen. Of om als eindwaarde **0** op te geven i.p.v. `direction`. En speel uiteraard met de tijdsduur van de animatie.
 
 [Volgende opdracht](opdracht6.md) - [Vorige opdracht](opdracht4.md) - [Uitleg](README.md)

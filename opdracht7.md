@@ -39,7 +39,7 @@ scoreboard.onTimeExpired(function () {
 });
 ```
 
-Dit zorgt er voor dat er een "Game Over!" bericht in het scorebord komt te staan als de tijd verstreken is (de **45** seconden die je boven hebt ingesteld).
+Dit zorgt ervoor dat er een "Game Over!" bericht in het scorebord komt te staan als de tijd verstreken is (de **45** seconden die je boven hebt ingesteld).
 
 ## Schudden met die bomen
 
@@ -225,7 +225,7 @@ function animateJump() {
 }
 ```
 
-In deze `TWEEN.js` staat niets nieuws, behalve dan wat andere getallen. Pas weer naar eigen inzicht de getallen aan om een idee te krijgen wat ze doen en om de animatie naar jou smaak af te stellen.
+In deze `TWEEN.js` staat niets nieuws, behalve dan wat andere getallen. Pas weer naar eigen inzicht de getallen aan om een idee te krijgen wat ze doen en om de animatie naar jouw smaak af te stellen.
 
 ## Geluid toevoegen
 
@@ -291,6 +291,6 @@ De regel `if (fruit) return;` zorgt ervoor dat de animatie niet nog een keer ges
 
 Het object `fruit` is wat programmeurs een "wegwerp"-object noemen. Het bestaat alleen maar zolang de animatie het nodig heeft. Als de animate klaar is (`onComplete`), wordt het weer weggegooid. Daarom kan je controleren of de animatie bezig is door te controleren of `fruit` bestaat.
 
-> **Probeer het zelf:** Als het goed is kun je alles wat in de `animateFruit` functie gebeurd redelijk volgen, want het zijn allemaal dingen die je in deze en voorgaande opdrachten al eerder hebt gedaan. Kan je bedenken hoe het `fruit`-object en de animatie er uit zien voordat je het spel gaat spelen?
+> **Probeer het zelf:** Als het goed is kun je alles wat in de `animateFruit` functie gebeurd redelijk volgen, want het zijn allemaal dingen die je in deze en voorgaande opdrachten al eerder hebt gedaan. Kan je bedenken hoe het `fruit`-object en de animatie eruit zien voordat je het spel gaat spelen?
 
 [Vorige opdracht](opdracht6.md) - [Uitleg](README.md)

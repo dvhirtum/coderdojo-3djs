@@ -6,7 +6,7 @@ De avatar beweegt nu op commando, maar hij ziet er nog wel een beetje als een ho
 
 ## Acrobatiek uit de `animate` functie halen
 
-Je gaat in deze opdracht de armen en benen van de avatar heen en weer bewegen als de avatar loopt. Maar om dat te doen moet je de `animate` functie aanpassen. Omdat daar nu al de code in staat voor de acrobatiek (salto's en flips) zou die functie een beetje onoverzichtelijk worden. Daarom ga je eerst die acrobatiek er uit halen en in zijn eigen functie zetten.
+Je gaat in deze opdracht de armen en benen van de avatar heen en weer bewegen als de avatar loopt. Maar om dat te doen moet je de `animate` functie aanpassen. Omdat daar nu al de code in staat voor de acrobatiek (salto's en flips) zou die functie een beetje onoverzichtelijk worden. Daarom ga je eerst die acrobatiek eruit halen en in zijn eigen functie zetten.
 
 Pas de `animate` functie aan:
 
@@ -34,9 +34,9 @@ function acrobatics() {
 
 Dit doet exact hetzelfde als wat je al had, maar nu kunnen we de loop-animatie toevoegen zonder dat het een rotzooi wordt.
 
-## Animatie voor de rechter hand toevoegen
+## Animatie voor de rechterhand toevoegen
 
-Om te beginnen ga je alleen de rechter hand animeren.
+Om te beginnen ga je alleen de rechterhand animeren.
 
 Voeg eerst de volgende regel toe, direct boven de `animate` functie:
 
@@ -55,7 +55,7 @@ function walk() {
 }
 ```
 
-Met de functie `Math.sin` kun je een slinger beweging simuleren. Als je een steeds groter getal in deze functie stopt (wat je doet omdat `getElapsedTime` steeds groter wordt, er is namelijk steeds meer tijd verstreken) dan zal `Math.sin` eerst steeds groter worden, daarna weer steeds kleiner, enzovoort. Als je het resultaat van deze functie dus gebruikt om de positie van de rechter hand te bepalen, dan krijg je dus het idee dat deze heen en weer beweegt tijdens het lopen.
+Met de functie `Math.sin` kun je een slingerbeweging simuleren. Als je een steeds groter getal in deze functie stopt (wat je doet omdat `getElapsedTime` steeds groter wordt, er is namelijk steeds meer tijd verstreken) dan zal `Math.sin` eerst steeds groter worden, daarna weer steeds kleiner, enzovoort. Als je het resultaat van deze functie dus gebruikt om de positie van de rechterhand te bepalen, dan krijg je dus het idee dat deze heen en weer beweegt tijdens het lopen.
 
 Nu moet je de `walk` functie alleen nog aanroepen om de animatie te zien.
 
@@ -69,11 +69,11 @@ Pas de `animate` functie aan:
 }
 animate();</code></pre>
 
-> **Probeer het zelf:** Probeer je spel nu uit om de animatie van de hand te zien. Experimenteer met de waarden **5** en **50** om een idee te krijgen wat ze doen. Kies vervolgens waarden die jij mooi vind.
+> **Probeer het zelf:** Probeer je spel nu uit om de animatie van de hand te zien. Experimenteer met de waarden **5** en **50** om een idee te krijgen wat ze doen. Kies vervolgens waarden die jij mooi vindt.
 
 ## Animatie voor de rest toevoegen
 
-Als je tevreden bent over de animatie van de hand, dan kan je de rest van de ledematen animeren. Lukt je dit zelf zonder hieronder te spieken? Tip: Als de rechter hand naar voren gaat, dan moet de linker hand naar achteren gaan. En meestal bewegen de armen en benen kruislings, dus rechter hand naar voren samen met het linker been.
+Als je tevreden bent over de animatie van de hand, dan kan je de rest van de ledematen animeren. Lukt je dit zelf zonder hieronder te spieken? Tip: Als de rechterhand naar voren gaat, dan moet de linkerhand naar achteren gaan. En meestal bewegen de armen en benen kruislings, dus rechterhand naar voren samen met het linkerbeen.
 
 Pas (als je dat nog niet gelukt is) de `walk` functie aan:
 
@@ -115,7 +115,7 @@ function isWalking() {
 }
 ```
 
-Als &eacute;&eacute;n van de variabelen `is_moving_right`, `is_moving_left`, `is_moving_forward` of `is_moving_back` de waarde `true` heeft, dan zal de `isWalking` functie ook `true` terug geven. Anders geeft de functie `false` terug.
+Als &eacute;&eacute;n van de variabelen `is_moving_right`, `is_moving_left`, `is_moving_forward` of `is_moving_back` de waarde `true` heeft, dan zal de `isWalking` functie ook `true` teruggeven. Anders geeft de functie `false` terug.
 
 Nu moet je alleen nog zorgen dat de 4 `is_moving_` variabelen de juiste waarde krijgen.
 

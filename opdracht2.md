@@ -83,7 +83,7 @@ Elke keer als de `animate` functie aangeroepen wordt veranderd de rotatie van de
 
 Bekijk het resultaat in het andere venster. Wat valt je op?
 
-## Hierarchy van objecten
+## Hi&euml;rarchie van objecten
 
 Alleen het lijf van je avatar beweegt! Dat komt omdat je elk onderdeel van je avatar aan de scene hebt toegevoegd en we alleen voor het lijf de rotatie aanpassen in de `animate` functie.
 
@@ -126,6 +126,6 @@ function animate() {
 
 animate();</code></pre>
 
-Nu wordt de animatie alleen maar uitgevoerd als `is_cartwheeling` de waarde `true` heeft (engels voor "waar"). Heb je genoeg van de animatie, verander dan `true` in `false` (engels voor "niet waar") en de animatie stopt. In de volgende opdracht ga je dit verder uitbreiden door de animatie aan of uit te zetten met een toets op het toetsenbord, maar voor nu geeft het je een idee hoe je kan controleren of een stuk van je code wel of niet uitgevoerd wordt.
+Nu wordt de animatie alleen maar uitgevoerd als `is_cartwheeling` de waarde `true` heeft (Engels voor "waar"). Heb je genoeg van de animatie, verander dan `true` in `false` (Engels voor "niet waar") en de animatie stopt. In de volgende opdracht ga je dit verder uitbreiden door de animatie aan of uit te zetten met een toets op het toetsenbord, maar voor nu geeft het je een idee hoe je kan controleren of een stuk van je code wel of niet uitgevoerd wordt.
 
 [Volgende opdracht](opdracht3.md) - [Vorige opdracht](opdracht1.md) - [Uitleg](README.md)

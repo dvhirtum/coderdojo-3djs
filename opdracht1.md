@@ -19,7 +19,7 @@ scene.add(ball);
 
 De code die je hebt toegevoegd, doet het volgende: 
 
-Als eerste heb je een `SphereGeometry` gemaakt, wat letterlijk "bol-vorm" betekend. Het getal tussen haakjes (100) geeft aan hoe groot de bol moet worden. `THREE.js` heeft nog meer vormen (of "geometries"), waarvan je de meest gebruikte in deze opdracht &eacute;&eacute;n voor &eacute;&eacute;n zult gaan bekijken.
+Als eerste heb je een `SphereGeometry` gemaakt, wat letterlijk "bolvorm" betekend. Het getal tussen haakjes (100) geeft aan hoe groot de bol moet worden. `THREE.js` heeft nog meer vormen (of "geometries"), waarvan je de meest gebruikte in deze opdracht &eacute;&eacute;n voor &eacute;&eacute;n zult gaan bekijken.
 
 Vervolgens heb je een `MeshNormalMaterial` gemaakt. Dit is wat de bol zijn kleur geeft. In een latere opdracht ga je zien hoe je zelf je kleur kan bepalen, maar voor nu is het belangrijk om te weten dat elk voorwerp dat je maakt een materiaal moet hebben.
 
@@ -45,7 +45,7 @@ Deze code maakt een functie met de naam `animate`. Een functie is een blokje cod
 
 Het eerste dat er in de functie gebeurd is dat er een andere functie, `requestAnimationFrame`, wordt aangeroepen en deze functie krijgt onze eigen functie, `animate`, mee als parameter. Wat dit doet, is dat we aan de browser vragen om zo snel mogelijk (zodra de browser klaar is om het scherm te verversen) de `animate` functie nogmaals aan te roepen. En omdat we dat elke keer als `animate` uitgevoerd word doen ontstaat er een oneindige lus. Dit is wat we de "game-loop" noemen. Door binnen deze `animate`-functie de objecten die we op het scherm tekenen te vari&euml;ren kunnen we animaties maken.
 
-De volgende regel, `renderer.render(scene, camera);`, is wat er voor zorgt dat je de bol die je hebt gemaakt ook op het scherm ziet. `renderer` en `camera` zijn `Three.js` objecten die bovenaan het bestand voor je zijn gemaakt. De `renderer` zet de objecten die je aan de scene toevoegd om in vormen op het scherm en `camera` bepaald van welke kant je naar de objecten kijkt.
+De volgende regel, `renderer.render(scene, camera);`, is wat er voor zorgt dat je de bol die je hebt gemaakt ook op het scherm ziet. `renderer` en `camera` zijn `Three.js` objecten die bovenaan het bestand voor je zijn gemaakt. De `renderer` zet de objecten die je aan de scene toevoegt om in vormen op het scherm en `camera` bepaald van welke kant je naar de objecten kijkt.
 
 De laatste regel, `animate();`, roept de `animate` functie voor de eerste keer aan om de game-loop te starten.
 
@@ -63,7 +63,7 @@ Dat is een stuk mooier, nietwaar? De getallen **20** en **15** bepalen uit hoeve
 
 > **Probeer het zelf:** In plaats van alleen de getallen over te nemen die in de opdrachten staan kun je een heleboel leren door zelf met de getallen te spelen. Dit werkt het beste als je &eacute;&eacute;n getal per keer aanpast en daarna in het andere venster bekijkt wat er verandert.
 
-Waarom zou je niet altijd hogere waarden gebruiken, als dat er veel mooier uitziet? Het probleem is dat uit hoe meer segmenten een object bestaat, des te zwaarder is het voor een computer om hem te tekenen. Hoe veel segmenten je gebruikt is dus altijd een afweging tussen hoe mooi het er uit moet zien en hoe krachtig de computer is van de persoon die jouw spel gaat spelen.
+Waarom zou je niet altijd hogere waarden gebruiken, als dat er veel mooier uitziet? Het probleem is dat uit hoe meer segmenten een object bestaat, des te zwaarder is het voor een computer om hem te tekenen. Hoe veel segmenten je gebruikt is dus altijd een afweging tussen hoe mooi het eruit moet zien en hoe krachtig de computer is van de persoon die jouw spel gaat spelen.
 
 ## De bol verplaatsen
 
@@ -128,7 +128,7 @@ scene.add(tube);
 tube.rotation.set(0.5, 0, 0);
 ```
 
-Weer veranderd er weinig ten opzichte van de bol en de kubus. Nu gebruiken we een `CylinderGeometry` met de parameters **20** (de straal van de bovenste cirkel), **20** (de straal van de onderste cirkel) en **100** (de hoogte). Je kan als vierde parameter ook nog aangeven uit hoe veel segmenten de cylinder moet bestaan (standaard is **8**).
+Weer verandert er weinig ten opzichte van de bol en de kubus. Nu gebruiken we een `CylinderGeometry` met de parameters **20** (de straal van de bovenste cirkel), **20** (de straal van de onderste cirkel) en **100** (de hoogte). Je kan als vierde parameter ook nog aangeven uit hoe veel segmenten de cilinder moet bestaan (standaard is **8**).
 
 > **Probeer het zelf:** Kan je met bovenstaande informatie bedenken hoe je `CylinderGeometry` kan gebruiken om een piramide te maken? (Kijk onderaan deze opdracht als je er niet uit komt)
 
@@ -152,7 +152,7 @@ scene.add(ground);
 ground.rotation.set(0.5, 0, 0);
 ```
 
-Deze keer gebruik je `PlaneGeometry` om een plat vlak te maken. Je kan zelf uitproberen welke van de twee parameters de lengte en welke de breedte van het vlak voorstelt. Er is al wat rotatie ingesteld om het vlak duidelijk te zien. (wat zou je zien als je die rotatie weglaat?)
+Deze keer gebruik je `PlaneGeometry` om een plat vlak te maken. Je kan zelf uitproberen welke van de twee parameters de lengte en welke de breedte van het vlak voorstelt. Er is al wat rotatie ingesteld om het vlak duidelijk te zien. (Wat zou je zien als je die rotatie weglaat?)
 
 ## Het vlak verplaatsen
 
@@ -202,7 +202,7 @@ function animate() {
 
 animate();</code></pre>
 
-Eerst maak je een `clock` object aan. Hiermee kan je aan `THREE.js` vragen hoeveel tijd er is verstreken (`clock.getElapsedTime()`). Door nu deze tijd-variable te gebruiken om de rotatie voor alle vormen aan te passen zullen ze constant om hun as draaien. Elke keer dat de `animate` functie wordt uitgevoerd zal de waarde van `t` namelijk net iets anders zijn waardoor ook de rotatie van alle vormen net iets anders zal zijn.
+Eerst maak je een `clock` object aan. Hiermee kan je aan `THREE.js` vragen hoeveel tijd er is verstreken (`clock.getElapsedTime()`). Door nu deze tijd-variabele te gebruiken om de rotatie voor alle vormen aan te passen zullen ze constant om hun as draaien. Elke keer dat de `animate` functie wordt uitgevoerd zal de waarde van `t` namelijk net iets anders zijn waardoor ook de rotatie van alle vormen net iets anders zal zijn.
 
 > **Uitwerking - een piramide tekenen:** Je kunt `CylinderGeometry` gebruiken om een piramide te tekenen: `var shape = new THREE.CylinderGeometry(1, 100, 100, 4);`
 
