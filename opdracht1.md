@@ -1,5 +1,6 @@
 # Opdracht 1 - Figuren tekenen
 
+|:---|:---|
 [Volgende opdracht](opdracht2.md) | [Uitleg](README.md)
 
 Voordat we beginnen met het maken van het spel gaan we eerst een kijkje nemen naar de verschillende vormen die je met `THREE.js` kunt maken.
