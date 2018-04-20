@@ -47,14 +47,14 @@ Ga als volgt te werk om met de eerste opdracht te beginnen:
 
 Hier is de lijst met opdrachten. Op elke opdracht pagina staat links naar de volgende en de vorige opdracht en een link terug naar deze uitleg.
 
- 1. [opdracht 1 - figuren tekenen](opdracht%201%20-%20figuren%20tekenen.md)
- 2. [opdracht 2 - een avatar maken](opdracht%202%20-%20een%20avatar%20maken.md)
- 3. [opdracht 3 - de avatar besturen](opdracht%203%20-%20de%20avatar%20besturen.md)
- 4. [opdracht 4 - de avatar animeren](opdracht%204%20-%20de%20avatar%20animeren.md)
- 5. [opdracht 5 - de avatar draaien](opdracht%205%20-%20de%20avatar%20draaien.md)
- 6. [opdracht 6 - botsingen](opdracht%206%20-%20botsingen.md)
- 7. [opdracht 7 - fruit hunt](opdracht%207%20-%20fruit%20hunt.md)
+ 1. [opdracht 1 - figuren tekenen](opdracht1.md)
+ 2. [opdracht 2 - een avatar maken](opdracht2.md)
+ 3. [opdracht 3 - de avatar besturen](opdracht3.md)
+ 4. [opdracht 4 - de avatar animeren](opdracht4.md)
+ 5. [opdracht 5 - de avatar draaien](opdracht5.md)
+ 6. [opdracht 6 - botsingen](opdracht6.md)
+ 7. [opdracht 7 - fruit hunt](opdracht7.md)
 
 ### Uitwerkingen
 
-Mocht je er niet uitkomen, ga dan naar: https://github.com/dvhirtum/coderdojo-3djs. Hier staat alle code van deze challenge, inclusief uitwerkingen van alle opdrachten. Ga naar de folder van de opdracht waar je mee bezig bent en open de folder met de naam  **uitwerking**.
+Mocht je er niet uitkomen, ga dan naar: [https://github.com/dvhirtum/coderdojo-3djs](https://github.com/dvhirtum/coderdojo-3djs). Hier staat alle code van deze challenge, inclusief uitwerkingen van alle opdrachten. Ga naar de folder van de opdracht waar je mee bezig bent en open de folder met de naam  **uitwerking**.

@@ -1,6 +1,6 @@
 # Opdracht 7 - Fruit Hunt
 
-[Vorige opdracht](opdracht%206%20-%20botsingen.md) | [Uitleg](README.md)
+[Vorige opdracht](opdracht6.md) | [Uitleg](README.md)
 
 In deze laatste opdracht (😭) maak je het spel af door de speler een doel te geven om zijn avatar te bewegen en hem tegelijk te laten weten hoeveel punten hij heeft gescoord. En om het helemaal af te maken ga je ook nog een geluidje toevoegen als de speler punten scoort.
 
@@ -293,4 +293,4 @@ Het object `fruit` is wat programmeurs een "wegwerp"-object noemen. Het bestaat 
 
 > **Probeer het zelf:** Als het goed is kun je alles wat in de `animateFruit` functie gebeurd redelijk volgen, want het zijn allemaal dingen die je in deze en voorgaande opdrachten al eerder hebt gedaan. Kan je bedenken hoe het `fruit`-object en de animatie er uit zien voordat je het spel gaat spelen?
 
-[Vorige opdracht](opdracht%206%20-%20botsingen.md) | [Uitleg](README.md)
+[Vorige opdracht](opdracht6.md) | [Uitleg](README.md)

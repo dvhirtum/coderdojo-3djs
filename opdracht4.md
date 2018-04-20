@@ -1,6 +1,6 @@
 # Opdracht 4 - De avatar animeren
 
-[Volgende opdracht](opdracht%205%20-%20de%20avatar%20draaien.md) | [Vorige opdracht](opdracht%203%20-%20de%20avatar%20besturen.md) | [Uitleg](README.md)
+[Volgende opdracht](opdracht5.md) | [Vorige opdracht](opdracht3.md) | [Uitleg](README.md)
 
 De avatar beweegt nu op commando, maar hij ziet er nog wel een beetje als een houten Klaas uit, vind je niet? Daar ga je in deze opdracht iets aan doen.
 
@@ -165,4 +165,4 @@ document.addEventListener('keyup', function(event) {
 
 Nu werkt de loop-animatie alleen maar zolang je een van de pijltjestoetsen indrukt. Maar de avatar blijft nog wel steeds in dezelfde richting staan, welk pijltje je ook indrukt. Dat probleem ga je in de volgende opdracht oplossen.
 
-[Volgende opdracht](opdracht%205%20-%20de%20avatar%20draaien.md) | [Vorige opdracht](opdracht%203%20-%20de%20avatar%20besturen.md) | [Uitleg](README.md)
+[Volgende opdracht](opdracht5.md) | [Vorige opdracht](opdracht3.md) | [Uitleg](README.md)

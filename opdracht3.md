@@ -1,6 +1,6 @@
 # Opdracht 3 - De avatar besturen
 
-[Volgende opdracht](opdracht%204%20-%20de%20avatar%20animeren.md) | [Vorige opdracht](opdracht%202%20-%20een%20avatar%20maken.md) | [Uitleg](README.md)
+[Volgende opdracht](opdracht4.md) | [Vorige opdracht](opdracht2.md) | [Uitleg](README.md)
 
 In deze opdracht ga je de avater laten bewegen met de pijltjestoetsen en, om er voor te zorgen dat je de beweging goed kan zien, ga je ook wat extra objecten tekenen: bomen!
 
@@ -159,4 +159,4 @@ Nu beweeg je het `marker` object met de pijltjestoetsen en omdat je zowel de `av
 
 Maar omdat je de rotatie in de `animate` functie niet hebt aangepast (die roteert nog steeds de `avatar`) zal de camera nu stil blijven en lijkt het niet meer of de spelwereld mee draait.
 
-[Volgende opdracht](opdracht%204%20-%20de%20avatar%20animeren.md) | [Vorige opdracht](opdracht%202%20-%20een%20avatar%20maken.md) | [Uitleg](README.md)
+[Volgende opdracht](opdracht4.md) | [Vorige opdracht](opdracht2.md) | [Uitleg](README.md)
