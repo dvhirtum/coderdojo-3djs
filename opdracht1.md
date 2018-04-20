@@ -1,7 +1,6 @@
 # Opdracht 1 - Figuren tekenen
 
-|:---|:---|
-[Volgende opdracht](opdracht2.md) | [Uitleg](README.md)
+[Volgende opdracht](opdracht2.md) - [Uitleg](README.md)
 
 Voordat we beginnen met het maken van het spel gaan we eerst een kijkje nemen naar de verschillende vormen die je met `THREE.js` kunt maken.
 
@@ -207,4 +206,4 @@ Eerst maak je een `clock` object aan. Hiermee kan je aan `THREE.js` vragen hoeve
 
 > **Uitwerking - een piramide tekenen:** Je kunt `CylinderGeometry` gebruiken om een piramide te tekenen: `var shape = new THREE.CylinderGeometry(1, 100, 100, 4);`
 
-[Volgende opdracht](opdracht2.md) | [Uitleg](README.md)
+[Volgende opdracht](opdracht2.md) - [Uitleg](README.md)

@@ -1,6 +1,6 @@
 # Opdracht 6 - Botsingen
 
-[Volgende opdracht](opdracht7.md) | [Vorige opdracht](opdracht5.md) | [Uitleg](README.md)
+[Volgende opdracht](opdracht7.md) - [Vorige opdracht](opdracht5.md) - [Uitleg](README.md)
 
 Misschien is het je opgevallen dat de avatar op dit moment dwars door de bomen kan lopen. Dat is uiteraard niet de bedoeling, dus daar ga je in deze opdracht een stokje voor steken!
 
@@ -112,4 +112,4 @@ Nadat je bepaald hebt wat de nieuwe positie van de avatar moet worden, roep je d
 
 Dit is het einde van opdracht 6. In de volgende, en laatste, opdracht ga je de speler een reden geven om van boom naar boom te lopen en maak je het spel af met een scorebord en geluid!
 
-[Volgende opdracht](opdracht7.md) | [Vorige opdracht](opdracht5.md) | [Uitleg](README.md)
+[Volgende opdracht](opdracht7.md) - [Vorige opdracht](opdracht5.md) - [Uitleg](README.md)

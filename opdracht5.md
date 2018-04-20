@@ -1,6 +1,6 @@
 # Opdracht 5 - de avatar draaien
 
-[Volgende opdracht](opdracht6.md) | [Vorige opdracht](opdracht4.md) | [Uitleg](README.md)
+[Volgende opdracht](opdracht6.md) - [Vorige opdracht](opdracht4.md) - [Uitleg](README.md)
 
 In de vorige opdracht heb je een loop-animatie toegevoegd als je de avatar beweegt, maar die animatie ziet er wel erg vreemd uit als de avatar niet ook draait in de richting waarin hij loopt. In deze opdracht ga je dat toevoegen.
 
@@ -93,4 +93,4 @@ De `onUpdate` functie wordt uitgevoerd elke keer als `TWEEN.update();` in de `an
 
 > **Probeer het zelf:** Hopelijk kon je de uitleg van `TWEEN.js` een beetje volgen. Het is erg moeilijk om in zo simpel mogelijke tekst uit te leggen wat een animatie library kan doen. Experimenteer daarom zo veel mogelijk. Probeer bijvoorbeeld eens om `rotation` door `position` te vervangen. Of om als eindwaarde **0** op te geven i.p.v. `direction`. En speel uiteraard met de tijdsduur van de animatie.
 
-[Volgende opdracht](opdracht6.md) | [Vorige opdracht](opdracht4.md) | [Uitleg](README.md)
+[Volgende opdracht](opdracht6.md) - [Vorige opdracht](opdracht4.md) - [Uitleg](README.md)

@@ -1,6 +1,6 @@
 # Opdracht 2 - Een avatar maken
 
-[Volgende opdracht](opdracht3.md) | [Vorige opdracht](opdracht1.md) | [Uitleg](README.md)
+[Volgende opdracht](opdracht3.md) - [Vorige opdracht](opdracht1.md) - [Uitleg](README.md)
 
 In deze opdracht gaan we beginnen met het spel. Het eerste onderdeel van het spel is je eigen avatar.
 
@@ -128,4 +128,4 @@ animate();</code></pre>
 
 Nu wordt de animatie alleen maar uitgevoerd als `is_cartwheeling` de waarde `true` heeft (engels voor "waar"). Heb je genoeg van de animatie, verander dan `true` in `false` (engels voor "niet waar") en de animatie stopt. In de volgende opdracht ga je dit verder uitbreiden door de animatie aan of uit te zetten met een toets op het toetsenbord, maar voor nu geeft het je een idee hoe je kan controleren of een stuk van je code wel of niet uitgevoerd wordt.
 
-[Volgende opdracht](opdracht3.md) | [Vorige opdracht](opdracht1.md) | [Uitleg](README.md)
+[Volgende opdracht](opdracht3.md) - [Vorige opdracht](opdracht1.md) - [Uitleg](README.md)
